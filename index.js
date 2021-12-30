@@ -4,8 +4,7 @@ const fs = require('fs');
 const markdown = require ('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
-const questions = [
-    inquirer.prompt([
+inquirer.prompt([
         {
             type:"input",
             name:"title",
@@ -47,13 +46,18 @@ const questions = [
             name:"development",
             message:"Future Development of Project: "
         },
-    ]).then((data => {
-        fs.writeFile("ReadME.md", markdown(data), err => err ? console.log(err) : console.log('Read me created!')  
+        {
+            type:"input",
+            name:"email",
+            message:"Email Address(es): "
+        },
+
+    ]).then((data => {      
+        // TODO: Create a function to write README file
+        fs.writeFile("ReadME.md", markdown(data), err => err ? console.log(err) : console.log('ReadMe Generated!')  
    )}
 )),
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {}

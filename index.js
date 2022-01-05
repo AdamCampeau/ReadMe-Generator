@@ -7,7 +7,8 @@ const markdown = require('./utils/generateMarkdown')
 
 
 
-// TODO: Create a function to initialize app
+// init function prompts for user data that creates README
+
 function init() {
     inquirer.prompt([
         {
@@ -63,7 +64,7 @@ function init() {
         },
 
     ]).then(data => {
-        // TODO: Create a function to write README file
+        // file system function to create README file passing in data
         fs.writeFile("README.md", markdown(data), err => err ? console.log(err) : console.log('ReadMe Generated!'))
     })
 

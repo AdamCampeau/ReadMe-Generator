@@ -38,11 +38,13 @@ function generateMarkdown(data) {
 
 [Demo](#Demo)
 
-[Testing](#Test)
+[Testing](#Testing)
 
 [Future Development](#Future_Development)
 
 [Contributors](#Contributors)
+
+[GitHub](#GitHub)
 
 [Contact](#Contact)
 
@@ -69,6 +71,9 @@ ${data.development}
 
 ## Contributors
 ${data.credits}
+
+## GitHub
+https://github.com/${data.github}
 
 ## Contact
 ${data.email}

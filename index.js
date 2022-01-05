@@ -53,6 +53,11 @@ function init() {
         },
         {
             type: "input",
+            name: "github",
+            message: "GitHub username: "
+        },
+        {
+            type: "input",
             name: "email",
             message: "Email Address(es): "
         },

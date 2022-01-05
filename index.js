@@ -59,7 +59,7 @@ function init() {
 
     ]).then(data => {
         // TODO: Create a function to write README file
-        fs.writeFile("ReadME.md", markdown(data), err => err ? console.log(err) : console.log('ReadMe Generated!'))
+        fs.writeFile("README.md", markdown(data), err => err ? console.log(err) : console.log('ReadMe Generated!'))
     })
 
 }

@@ -1,4 +1,4 @@
-# readme gen
+# README Generator
 
 ## Table of Contents
 --------------------------------------
@@ -10,11 +10,13 @@
 
 [Demo](#Demo)
 
-[Testing](#Test)
+[Testing](#Testing)
 
 [Future Development](#Future_Development)
 
 [Contributors](#Contributors)
+
+[GitHub](#GitHub)
 
 [Contact](#Contact)
 
@@ -22,26 +24,34 @@
 --------------------------------------
 
 ## Description
-creates read me file
+readme generator node.js
 
 ## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+No license
 
 ## Installation
-npm i inquirer
+npm install inquirer
 
 ## Demo
 node index
 
 ## Testing
-termial testing
+node index
 
 ## Future_Development
-none
+None
 
 ## Contributors
-Adam
+Adam Campeau
+
+## GitHub
+https://github.com/AdamCampeau
 
 ## Contact
-test@test.com
+acampeau3@hotmail.com
 
+## ScreenCastify Link
+https://watch.screencastify.com/v/hvMDcHtnPKXTKvp6mkTk
+
+## GitHub URL
+https://github.com/AdamCampeau/ReadMe-Generator/
